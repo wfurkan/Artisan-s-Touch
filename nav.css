@@ -1,0 +1,102 @@
+/* Student Info */
+/* Name: Furkan Bilgi */
+/* Student ID: 24378020 */
+/* File: nav.css */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar Styles */
+
+.navbar {
+    background-color: #333; /* Dark background for contrast */
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #f2a365; /* Accent color from theme */
+}
+
+.navbar h1 {
+    font-size: 28px;
+    font-family: 'Georgia', serif; /* Elegant font for the brand */
+    color: white;
+    margin: 0;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title img {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px; 
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #f2a365; 
+    color: black;
+}
+
+/* Add Cart Section to Nav */
+
+.navbar ul li:last-child a {
+    font-weight: bold; 
+    background-color: #f2a365; 
+    color: black;
+}
+
+.navbar ul li:last-child a:hover {
+    background-color: white;
+    color: #333;
+    border: 1px solid #f2a365;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .navbar ul li a {
+        display: block;
+        width: 100%; 
+        text-align: left;
+    }
+}
+

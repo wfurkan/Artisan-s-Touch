@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.cart-image {
+    max-width: 80px;
+    max-height: 80px;
+    object-fit: cover;
+}
+
+.update-btn, .remove-btn, .checkout-btn {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.update-btn:hover, .remove-btn:hover, .checkout-btn:hover {
+    background-color: #e64a19;
+}
+
+.grand-total {
+    font-weight: bold;
+    text-align: right;
+}
+
+.checkout-btn {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    text-decoration: none;
+}
+

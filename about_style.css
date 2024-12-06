@@ -1,0 +1,137 @@
+/* Student Info */
+/* Name: Furkan Bilgi */
+/* Student ID: 24378020 */
+/* File: about_style.css */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* About Section */
+
+.about-section {
+    padding: 5rem;
+    background-color: #f2a365;
+    color: white;
+    text-align: center;
+    animation: fadeIn 2s;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 1.5rem;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 1rem;
+    line-height: 1.8;
+}
+
+/* Team Section */
+
+.team-section {
+    text-align: center;
+    padding: 4rem;
+    background-color: #fafafa;
+}
+
+.team-section h3 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-member {
+    width: 30%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.team-member img {
+    width: 80%;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.team-member img:hover {
+    transform: scale(1.1);
+}
+
+.team-member h4 {
+    margin-top: 1rem;
+    font-size: 22px;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: grey;
+    margin-top: 0.5rem;
+}
+
+/* Vision and Mission */
+
+.vision-mission {
+    background-color: #333;
+    color: white;
+    padding: 4rem;
+    text-align: center;
+}
+
+.vision-mission h3 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.vision-mission p {
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.navbar img {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo-title h1 {
+    font-size: 24px;
+    margin-left: 10px; 
+    font-family: 'Georgia', sans-serif;
+    color: white; 
+}
+
